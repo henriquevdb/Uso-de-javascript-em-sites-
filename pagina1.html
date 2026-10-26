@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <title>Portfolio</title>
+        <meta charset="utf-8" />
+        <link rel="icon" href="/imagens/4g.png" />
+        <!-- CSS -->
+        <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap-icons.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/menu.css" />
+        <!-- JAVASCRIPT -->
+        <script src="/js/jquery-3.5.1.js"></script>
+        <script src="/js/site.js"></script>
+        <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="menu" class="collapse navbar-collapse">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">Home</a>
+
+          <a class="nav-item nav-link" href="pagina1.html">pagina 1</a>
+          <a class="nav-item nav-link" href="exercicio.html">Exercicios</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+        <div id="wrapper">
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li><img src="./imagens/Ireland.png"/></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pagina1.html">Pagina 1</a></li>
+                </ul>
+            </div>
+            <div id="page-content-wrapper">
+            <!--Conteúdo da Página-->
+                <div class="container-fluid">
+                    <a href="#menu-toggle" class="btn btn-primary" id="menu-toggle">Menu</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <br><br><br>
+
+                <h1>Meu primeiro código JS</h1>
+                <button onclick="mostrarMsg()">Clique Aqui!</button>
+
+                <br><br><br>
+
+                <h1>Botão para Somar</h1>
+                <button onclick="soma()">Somar</button>
+                <p id="resultado"></p>
+                
+                <br><br><br>
+
+                <h1>Botão para subtrair</h1>
+                <button onclick="subtracao()">Subtrair</button>
+                <p id="resultado1"></p>
+                
+                <br><br><br>
+
+                <h1>Botão para Multiplicar</h1>
+                <button onclick="multiplicacao()">Multiplicar</button>
+                <p id="resultado2"></p>
+                
+                <br><br><br>
+
+                <h1>Botão para Dividir</h1>
+                <button onclick="divisao()">Dividir</button>
+                <p id="resultado3"></p>
+                <script src="./js/aula.js"></script>
+
+
+                <div>
+                    <h3>Formulário</h3>
+                    <form name="form1">
+                        <label>Numero 1:</label>
+                        <input type="text" name="num1"/>
+                        <br><br>
+                        <label>Numero 2:</label>
+                        <input type="text" name="num2"/>
+                        <br><br>
+
+                        <input type="radio" name="operacao" value="soma" checked/> Soma <br>
+                        <input type="radio" name="operacao" value="subt"/> Subtração <br>
+                        <br>
+                        <input type="button" value="Calcule!" onclick="somar1()"/>
+
+                    </form>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+            <!--Fim do Conteúdo-->
+        </div>
+    </body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <title>Exercicios</title>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/imagens/4g.png" />
+  <!-- CSS -->
+  <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/menu.css" />
+  <!-- JAVASCRIPT -->
+  <script src="/js/jquery-3.5.1.js"></script>
+  <script src="/js/site.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="menu" class="collapse navbar-collapse">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">Home</a>
+
+          <a class="nav-item nav-link" href="pagina1.html">pagina 1</a>
+          <a class="nav-item nav-link" href="exercicio.html">Exercicios</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <br><br><br>
+    <h1>Exercício 1</h1>
+    <button onclick="exercicio1()">Nome</button>
+    <p id="exercicio1"></p>
+    <br><br><br>
+
+    <h1>Exercício 2</h1>
+    <form name="form2">
+      <label>Número 1</label>
+      <input type="text" name="num1" />
+      <br><br>
+      <label>Número 2</label>
+      <input type="text" name="num2" />
+      <br><br>
+
+      <label>Resultado</label>
+      <input type="button" value="Calcule!" onclick="exercicio2();" />
+      <br><br><br>
+    </form>
+    <br><br><br>
+
+
+    <h1>Exercício 3</h1>
+    <form name="form3">
+      <label>Número 1</label>
+      <input type="text" name="n1" />
+      <br><br>
+      <label>Número 2</label>
+      <input type="text" name="n2" />
+      <br><br>
+
+      <input type="radio" name="operacao" value="soma" checked /> Soma <br>
+      <input type="radio" name="operacao" value="subt" /> Subtração <br>
+      <input type="radio" name="operacao" value="mult" /> Multiplicação <br>
+      <input type="radio" name="operacao" value="div" /> Divisão <br>
+      <br>
+      <label>Resultado</label>
+      <input type="button" value="Calcule!" onclick="exercicio3();" />
+      <br><br><br>
+    </form>
+    <br><br><br>
+
+    <h1>Exercício 4</h1>
+    <input type="button" value="Par ou Impar!" onclick="exercicio4();" />
+    <p id="exercicio4"></p>
+    <br><br><br>
+
+    <h1>Exercício 5</h1>
+    <form name="form5">
+      <label>Número 1</label>
+      <input type="text" name="n1" />
+      <br><br>
+      <label>Número 2</label>
+      <input type="text" name="n2" />
+      <br><br>
+      <label>Número 3</label>
+      <input type="text" name="n3" />
+      <br><br>
+      <label>Resultado</label>
+      <input type="button" value="Ordem!" onclick="exercicio5();" />
+      <br><br><br>
+    </form>
+    <br><br><br>
+
+    <h1>Exercício 6</h1>
+    <input type="button" value="Converter" onclick="exercicio6();" />
+    <p id="exercicio6"></p>
+    <br><br><br>
+
+    <h1>Exercício 7</h1>
+    <form name="form7">
+      <label>Nota 1</label>
+      <input type="text" name="n1" />
+      <br><br>
+      <label>Nota 2</label>
+      <input type="text" name="n2" />
+      <br><br>
+      <label>Nota 3</label>
+      <input type="text" name="n3" />
+      <br><br>
+      <label>Resultado</label>
+      <input type="button" value="Média!" onclick="exercicio7();" />
+      <br><br><br>
+    </form>
+    <br><br><br>
+
+    <h1>Exercício 8</h1>
+    <button onclick="exercicio8()">Clique aqui</button>
+    <p id="click"></p>
+
+    <br><br><br>
+
+    <h1>Exercício 9</h1>
+    <input type="button" name="verificar" value="verificar" onclick="exercicio9()" />
+    <p id="exercicio9"></p>
+
+    <br><br><br>
+
+    <h1>Exercício 10</h1>
+    <button onclick="exercicio10()">Transformar Texto</button>
+    <p id="exercicio10"></p>
+
+    <br><br><br>
+
+  </div>
+
+  <script src="js/exercicio.js"></script>
+</body>
+
+</html>
